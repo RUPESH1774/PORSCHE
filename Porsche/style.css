@@ -1,0 +1,57 @@
+#image{
+    background-image: url(IMages/GIF.gif);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+/* #About{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+body{
+    animation: main 2s linear;
+    animation-duration: 2s;  
+    animation-delay: 1.4s; 
+}
+@keyframes main {
+    from{ filter: blur(40px);}
+    to{}
+}
+header{
+    animation: headd 2.5s linear;
+    animation-duration: 2.4s;
+    animation-delay: 1.9s;
+}
+@keyframes headd {
+    from{margin-left: -100pc;}
+    to{}
+}
+#card{
+    animation: cardd 2s ease-in;
+    animation-duration: 3s;
+    animation-delay:3.5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 1s ease;
+    transition-duration: 2s;
+    transition-delay: 0.4s;
+}
+@keyframes cardd {
+    from{padding: 200px; margin: 300px;}
+    to{}
+}
+#card:hover img{
+    padding: 20px;
+}
+#Porscheee{
+    transition-duration: 2.3s;
+    transition-delay: 0.4s;
+    animation: Logo 2s  linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+
+@keyframes Logo {
+
+    from{transform: rotateY(360deg); }
+    to{}
+}
